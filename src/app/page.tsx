@@ -31,22 +31,23 @@ export default function Component() {
         </div>
       </header>
       <section className="w-full h-[50vh] md:h-[70vh]" id="inicio">
-  <div 
-    className="relative w-full h-full"
-    style={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/03.jpg)',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}
-  >
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-      <h2 className="text-6xl font-bold">Bienvenidos</h2>
-      <p className="mt-4 text-2xl">
-        Criamos las mejores gallinas ponedoras para su hogar o negocio.
-      </p>
-    </div>
-  </div>
-</section>
+        <div
+          className="relative w-full h-full"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/03.jpg)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+            <h2 className="text-6xl font-bold">Bienvenidos</h2>
+            <p className="mt-4 text-2xl">
+              Criamos las mejores gallinas ponedoras para su hogar o negocio.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section
         className="w-full max-w-2xl mx-auto mt-12 px-4 sm:px-6 lg:px-8"
@@ -56,11 +57,14 @@ export default function Component() {
           Acerca de Nosotros
         </h2>
         <p className="mt-4 text-gray-700 dark:text-gray-300">
-          Nuestras gallinas ponedoras de 16 semanas son de la más alta calidad,
-          criadas en condiciones óptimas para garantizar su salud y
-          productividad. Son capaces de producir hasta 7 huevos por semana,
-          proporcionando un suministro constante de huevos frescos para su hogar
-          o negocio.
+          Nuestras gallinas ponedoras de 16 semanas, de la línea Hy-Line Brown,
+          han sido criadas siguiendo las mejores prácticas de manejo y
+          nutrición, lo que garantiza su salud y alta productividad. Estas aves
+          son capaces de producir una cantidad significativa de huevos por
+          semana, lo que les permite proporcionar un suministro constante de
+          huevos frescos para su hogar o negocio, cumpliendo con los estándares
+          de calidad y rendimiento establecidos en la guía de manejo de Hy-Line
+          International.
         </p>
       </section>
       <section
