@@ -1,3 +1,10 @@
+type Metadata = {
+  title: string;
+  description: string;
+  keywords: string;
+  viewport: string;
+};
+
 export const metadata: Metadata = {
   title: 'Gallinas Ponedoras',
   description: 'Criamos las mejores gallinas ponedoras para su hogar o negocio.',
@@ -16,7 +23,7 @@ export default function RootLayout({
         <meta name="keywords" content={metadata.keywords || ''} />
         <meta name="viewport" content={metadata.viewport || ''} />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className="font-inter">{children}</body>
     </html>
   )
 }
